@@ -92,5 +92,8 @@ header {
     .header_socials, .scroll_down {
         display: none;
     }
+    .name_h1 {
+        /* font-size: 1rem; */
+    }
     
 }

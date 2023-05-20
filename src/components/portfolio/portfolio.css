@@ -15,12 +15,12 @@
     .portfolio {
         position: relative;
         opacity: 0;
-        transform: translateX(150px);
+        transform: translateY(150px);
         transition: all 1.2s ease;
     }
     .active_portfolio {
         opacity: 1;
-        transform: translateX(0px);
+        transform: translateY(0px);
         transition: all 1.2s ease;
     }
     

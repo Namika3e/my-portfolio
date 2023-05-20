@@ -8,14 +8,14 @@
 .about {
     position: relative;
     opacity: 0;
-    transform: translateX(-150px);
+    transform: translateY(-150px);
     transition: all 1.3s ease;
     /* overflow-x: hidden; */
     /* background-color: red; */
 }
 .active_about {
     opacity: 1;
-    transform: translateX(0px);
+    transform: translateY(0px);
     transition: all 1.2s ease;
 }
 
