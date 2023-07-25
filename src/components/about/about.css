@@ -1,0 +1,97 @@
+.about_container {
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+
+}
+
+.about {
+    position: relative;
+    opacity: 0;
+    transform: translateY(-150px);
+    transition: all 1.3s ease;
+    /* overflow-x: hidden; */
+    /* background-color: red; */
+}
+.active_about {
+    opacity: 1;
+    transform: translateY(0px);
+    transition: all 1.2s ease;
+}
+
+.about_me {
+    width: 100%;
+    /* aspect-ratio: 2/2; */
+    height: 100%;
+    border-radius: 2rem;
+    background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
+    /* background-color: red; */
+    display: grid;
+    place-items: center;
+}
+
+.about_me-image {
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    height: 100%;
+    transition: var(--transition);
+}
+
+.about_me-main_img {
+    height: 100%;
+}
+.about_me-image:hover {
+    transform: rotate(0deg);
+}
+
+.about_content p {
+    margin: 2rem 0 2.6rem;
+    color: var(--color-light);
+}
+
+.about_content {
+    margin-top: 4rem;
+}
+
+
+
+/* =================== MEDIA QUERIES (MEDIUM DEVICES) =================== */
+@media screen and (max-width: 1024px) {
+    .about_container {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .about_me {
+        width: 50%;
+        margin: 2rem auto 4rem;
+    }
+    .about_content p {
+        margin: 1rem 0 1.5rem;
+    }
+    .about_me-image {
+        height: 100%;
+    }
+
+    .about_me-image img {
+        height: 100%;
+    }
+    
+
+}
+/* =================== MEDIA QUERIES (SMALL DEVICES) =================== */
+@media screen and (max-width: 600px) {
+    .about_me {
+       width: 65%;
+       margin: 0 auto 3rem;
+    }
+    .header_socials, .scroll_down {
+        display: none;
+    }
+
+    .about_content {
+        text-align: center;
+    }
+    
+}
