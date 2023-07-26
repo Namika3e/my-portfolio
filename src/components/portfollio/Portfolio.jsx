@@ -23,7 +23,7 @@ const Portfolio = () => {
           <h3>Pig-game</h3>
           <p className='app_description'>Players take turns to roll a single dice as many times as they wish, 
           adding all roll results to a running total, but losing their gained score for the turn if they roll 
-          a 1. Made Using HTML, CSS and Vanilla JavaScript</p>
+          a 1. First player to reach 100 total wins. Made Using HTML, CSS and Vanilla JavaScript</p>
          <div className="portfolio_item-cta">
          <a href="https://github.com/namika3e/pig-game" className='btn' target="_blank" rel="noreferrer">Github</a>
          <a href="https://pig-game-git-main-namika3e.vercel.app/" className='btn btn_primary' target='_blank'  rel="noreferrer">Live Demo</a>
@@ -35,7 +35,7 @@ const Portfolio = () => {
             <img src="../../react-proj.jpeg" alt="" />
           </div>
           <h3>Countries_app</h3>
-          <p className='app_description'>A web app that shows information about every country in the world. There is a search
+          <p className='app_description'>Created with ReactJS. A web app that shows information about every country in the world. There is a search
              feature to look up any country of your choice in seconds, 
             or filter the countries based on their regions. It also implements a light and dark mode feature.</p>
          <div className="portfolio_item-cta">
