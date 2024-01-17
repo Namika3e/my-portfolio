@@ -19,7 +19,7 @@ const Portfolio = () => {
 
       <article className="portfolio_item">
           <div className="portfolio_item-image">
-            <img src="../../natty.jpg" alt="natours" />
+            <img src="../../natty.jpeg" alt="natours" />
           </div>
           <h3>Natours</h3>
           <p className='app_description'>A landing page for a tourist to book for online. Built with HTML and SCSS</p>
@@ -31,7 +31,7 @@ const Portfolio = () => {
 
       <article className="portfolio_item">
           <div className="portfolio_item-image">
-            <img src="../../grocery-bud.jpg" alt="grocery-bud" />
+            <img src="../../grocery-bud.jpeg" alt="grocery-bud" />
           </div>
           <h3>Grocery-bud</h3>
           <p className='app_description'>Like a To-Do list, but for organising groceries. Create, Update or Delete groceries for organisation. Made Using HTML, CSS and Vanilla JavaScript</p>
@@ -43,7 +43,7 @@ const Portfolio = () => {
 
       <article className="portfolio_item">
           <div className="portfolio_item-image">
-            <img src="../../pig-game.jpg" alt="pig_app" />
+            <img src="../../pig-game.jpeg" alt="pig_app" />
           </div>
           <h3>Pig-game</h3>
           <p className='app_description'>Players take turns to roll a single dice as many times as they wish, 
