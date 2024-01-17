@@ -1,14 +1,14 @@
 import React from 'react'
 import './about.css'
-import { useInView } from 'react-intersection-observer'
+// import { useInView } from 'react-intersection-observer'
 
 
 const About = () => {
 
-  const {ref, inView, entry} = useInView({
-    threshold: 0.1,
-    delay:200
-  });
+  // const {ref, inView, entry} = useInView({
+  //   threshold: 0.1,
+  //   delay:200
+  // });
   return (
     <section id='about'>
       <h5>Get To Know</h5>
@@ -23,13 +23,11 @@ const About = () => {
 
         <div className="about_content">
           <p>
-            I'm a Software Engineer with experience developing web applications using MongoDB,
-Express.js, React.js, and Node.js. Proficient in using MongoDB to store, retrieve, and
-manipulate data, and experienced in building web applications on top of Node.js
-using Express.js. Demonstrated ability to develop complex user interfaces using
-React.js and knowledge of its ecosystem, including ContextAPI and React Router.
-Passionate about creating robust and scalable web applications using the latest
-MERN stack technologies.
+          I'm a Fullstack Developer(Frontend heavy) with experience developing web applications using NextJS, React.js,
+Redux for state management, Redux toolkit, TailwindCSS, Javascript and Typescript. Passionate about
+building and developing complex user interfaces and functionality using React.js.
+Lastly, I’m passionate about creating robust and scalable web applications using the latest MERN stack
+technologies.
             </p>
 
             <a href="#contact" className='btn btn_primary'>Let's Talk</a>

@@ -1,12 +1,12 @@
 import React from 'react'
 import './experience.css'
 import {BsPatchCheckFill} from 'react-icons/bs'
-import { FaWindowMaximize } from 'react-icons/fa'
+// import { FaWindowMaximize } from 'react-icons/fa'
 import { useInView } from 'react-intersection-observer';
 
 
 const Experience = () => {
-  const {ref, inView, entry} = useInView({
+  const {ref, inView} = useInView({
     threshold: 0.4,
     delay: 200
   });
@@ -46,6 +46,14 @@ return (
           <article className="experience_details">
             <BsPatchCheckFill className='experience_details-icon'/>
             <div>
+            <h4>TypeScript</h4>
+            <small className='text-light'>Experienced</small>
+            </div>
+          </article>
+
+          <article className="experience_details">
+            <BsPatchCheckFill className='experience_details-icon'/>
+            <div>
             <h4>TailwindCSS</h4>
             <small className='text-light'>Experienced</small>
             </div>
@@ -55,6 +63,22 @@ return (
             <BsPatchCheckFill className='experience_details-icon'/>
            <div>
            <h4>ReactJS</h4>
+            <small className='text-light'>Experienced</small>
+           </div>
+          </article>
+
+          <article className="experience_details">
+            <BsPatchCheckFill className='experience_details-icon'/>
+           <div>
+           <h4>Redux</h4>
+            <small className='text-light'>Experienced</small>
+           </div>
+          </article>
+
+          <article className="experience_details">
+            <BsPatchCheckFill className='experience_details-icon'/>
+           <div>
+           <h4>Redux Toolkit</h4>
             <small className='text-light'>Experienced</small>
            </div>
           </article>

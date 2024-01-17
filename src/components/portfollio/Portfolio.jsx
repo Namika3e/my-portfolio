@@ -16,6 +16,31 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio_container">
+
+      <article className="portfolio_item">
+          <div className="portfolio_item-image">
+            <img src="../../natty.jpg" alt="natours" />
+          </div>
+          <h3>Natours</h3>
+          <p className='app_description'>A landing page for a tourist to book for online. Built with HTML and SCSS</p>
+         <div className="portfolio_item-cta">
+         <a href="https://github.com/Namika3e/natours" className='btn' target="_blank" rel="noreferrer">Github</a>
+         <a href="https://natours-three-tawny.vercel.app/" className='btn btn_primary' target='_blank'  rel="noreferrer">Live Demo</a>
+         </div>
+        </article>
+
+      <article className="portfolio_item">
+          <div className="portfolio_item-image">
+            <img src="../../grocery-bud.jpg" alt="grocery-bud" />
+          </div>
+          <h3>Grocery-bud</h3>
+          <p className='app_description'>Like a To-Do list, but for organising groceries. Create, Update or Delete groceries for organisation. Made Using HTML, CSS and Vanilla JavaScript</p>
+         <div className="portfolio_item-cta">
+         <a href="https://github.com/Namika3e/grocery_bud" className='btn' target="_blank" rel="noreferrer">Github</a>
+         <a href="https://grocery-bud-pearl.vercel.app/" className='btn btn_primary' target='_blank'  rel="noreferrer">Live Demo</a>
+         </div>
+        </article>
+
       <article className="portfolio_item">
           <div className="portfolio_item-image">
             <img src="../../pig-game.jpg" alt="pig_app" />
