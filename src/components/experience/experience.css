@@ -1,8 +1,14 @@
 .experience_container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+    grid-template-columns: repeat(2, minmax(0, 50%));
+    /* gap: ;  */
+    column-gap: 200px;
+    row-gap: 80px;
+    /* background-color: red; */
+
 }
+
+
 
 .experience_frontend {
     position: relative;

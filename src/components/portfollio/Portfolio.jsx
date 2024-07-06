@@ -16,13 +16,25 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio_container">
-
+      <article className="portfolio_item">
+          <div className="portfolio_item-image">
+            <img src="../../growwr.png" alt="" />
+          </div>
+          <h3>Growwr</h3>
+          <p className='app_description'>Growwr, where talent seekers go to hire talent. Live with multiple users.</p>
+         <div className="portfolio_item-cta">
+         {/* <a href="https://github.com/Namika3e/natours" className='btn' target="_blank" rel="noreferrer">Github</a> */}
+         <a href="https://growwr.co" className='btn btn_primary' target='_blank'  rel="noreferrer">Live Demo</a>
+         </div>
+        </article>
+      
+      
       <article className="portfolio_item">
           <div className="portfolio_item-image">
             <img src="../../natty.JPG" alt="" />
           </div>
           <h3>Natours</h3>
-          <p className='app_description'>A landing page for a tourist to book for online. Built with HTML and SCSS</p>
+          <p className='app_description'>A landing page for a tourist to book for online. Built with HTML and SCSS (CSS preprocessor)</p>
          <div className="portfolio_item-cta">
          <a href="https://github.com/Namika3e/natours" className='btn' target="_blank" rel="noreferrer">Github</a>
          <a href="https://natours-three-tawny.vercel.app/" className='btn btn_primary' target='_blank'  rel="noreferrer">Live Demo</a>

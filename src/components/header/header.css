@@ -1,7 +1,7 @@
 header {
     height: 100vh;
     padding-top: 7rem;
-    overflow: hidden;
+    /* overflow: hidden; */
     /* animation: ease_in .8s linear; */
 }
 
@@ -55,25 +55,29 @@ header {
  
 .me{
     /* background: var(--color-primary); */
-     width: 22rem; 
+     width: 40rem; 
     height: 30rem;
     display: flex;
     justify-content: center;
     position: absolute;
-    left: calc(50% - 11rem);
+    /* left: calc(50% - 11rem); */
+    left: 22%;
     margin-top: 4rem;
     padding-inline: 1rem;
     /* border-radius: 12rem 12rem 0 0; */
     /* object-fit: contain; */
+    border-radius: 10px !important;
+    
 }
 
 .my_img {
-    border-radius: 10px;
+    border-radius: 10px !important;
     /* border-bottom-left-radius: 10px; */
     /* object-fit: contain; */
     /* width: 12rem; */
     /* height: 10rem; */
     /* margin-top: 2rem; */
+
     
 }
 

@@ -23,11 +23,9 @@ const About = () => {
 
         <div className="about_content">
           <p>
-          I'm a Fullstack Developer(Frontend heavy) with experience developing web applications using NextJS, React.js,
-Redux for state management, Redux toolkit, TailwindCSS, Javascript and Typescript. Passionate about
-building and developing complex user interfaces and functionality using React.js.
-Lastly, I’m passionate about creating robust and scalable web applications using the latest MERN stack
-technologies.
+          I'm a Fullstack Developer with experience developing web applications using NextJS, and ReactJS, ExpressJS, MongoDB and MySQL database. Currently working with C#. I am a great team player and i thrive under pressure. I love learning, playing videogames and just chilling.
+
+
             </p>
 
             <a href="#contact" className='btn btn_primary'>Let's Talk</a>
