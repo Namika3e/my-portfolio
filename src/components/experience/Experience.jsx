@@ -28,13 +28,13 @@ const Experience = () => {
 
       <article>
         <h3>United States Of Africa (Zumaridi Communications), <span className=''>5900 BALCONES DRIVE STE 100 AUSTIN TX 78731, U.S.A.</span> <br /> <em>Frontend Developer(Part-time)</em></h3>
-        <p className='color'>April 2024 - May2024</p>
+        <p className='color'>April 2024 - May 2024</p>
       {/* <p>Stack: ReactJS TypeScript, React Router, SCSS, Bootstrap</p> */}
       </article>
 
       <article>
         <h3>YouVerify Inc, <span className=''>Lagos Nigeria</span> <br /> <em>Software Engineer Intern</em></h3>
-        <p className='color'>December 2021 - 2024</p>
+        <p className='color'>December 2021 - May 2022</p>
       {/* <p>Stack: ReactJS JavaScript, React Router, TailwindCSS</p> */}
       </article>
 
