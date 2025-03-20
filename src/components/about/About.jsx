@@ -23,7 +23,7 @@ const About = () => {
 
         <div className="about_content">
           <p>
-          I'm a Fullstack Developer with experience developing web applications using NextJS, and ReactJS, ExpressJS, MongoDB and MySQL database. Currently working with C#. I am a great team player and i thrive under pressure. I love learning, playing videogames and just chilling.
+          I'm a Fullstack Developer with experience developing web applications using NextJS, and ReactJS, ExpressJS, Java and Spring Boot, MongoDB and SQL databases. I am a great team player and i thrive under pressure. I love learning, playing videogames and ofcourse, building software.
 
 
             </p>
